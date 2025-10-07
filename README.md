@@ -46,10 +46,11 @@ Sistema completo de mala direta desenvolvido em Python com interface gráfica in
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/salemachine-mala-direta.git
+git clone https://github.com/MauricioSaleMachine/MalaDiretaTK
 
 # Entre no diretório
 cd salemachine-mala-direta
 
 # Instale as dependências
 pip install pandas pywin32
+
