@@ -1,0 +1,214 @@
+🖥️ How to Use
+Data Preparation:
+
+Prepare a CSV file with Name and Email columns
+
+Optional: add other columns for reference
+
+Email Configuration:
+
+Set the message subject
+
+Create the HTML template for email body
+
+Use variables for personalization
+
+Attachments (Optional):
+
+Associate specific files with each contact
+
+Or send the same attachment to multiple people
+
+Sending:
+
+Click "Start Sending"
+
+System applies automatic delays between sends
+
+Real-time monitoring in execution log
+
+🎨 Graphical Interface
+Main Screen
+Section 1: Database loading and editing
+
+Section 2: Email configuration (subject, body, attachments)
+
+Section 3: Sending controls (start, stop, clear)
+
+Section 4: Real-time execution log
+
+Progress Bar: Visual sending tracking
+
+Auxiliary Windows
+Data Editor: Editable table to modify contacts
+
+Attachment Manager: Interface to associate files
+
+Data Viewer: Read-only table for visualization
+
+⚙️ CSV Structure
+csv
+Name;Email
+John Smith;john@company.com
+Maria Santos;maria@company.com
+...
+🛡️ Security Features
+Automatic Delay: 6 seconds between sends to prevent spam
+
+Data Validation: Email and name validity checking
+
+Error Handling: Continues sending even with individual errors
+
+Safe Interruption: Immediate stop when requested
+
+📋 System Requirements
+Windows (with Outlook installed)
+
+Python 3.6 or higher
+
+Microsoft Outlook 2013 or higher
+
+Internet access for email sending
+
+🚨 Known Limitations
+Works only on Windows due to Outlook integration
+
+Requires Outlook to be installed and configured
+
+Limited to PDF and DOCX attachments in current interface
+
+🤝 Contributions
+Contributions are welcome! Areas for improvement:
+
+Support for other email clients (Gmail, Thunderbird)
+
+Pre-made email templates
+
+More detailed sending reports
+
+Support for more attachment formats
+
+📄 License
+This project is under MIT license. See the LICENSE file for details.
+
+⚠️ Legal Notice
+This software is intended for legitimate marketing and communication use.
+Users are responsible for ensuring compliance with:
+
+Data protection laws (GDPR, CCPA)
+
+Spam and email marketing regulations
+
+Acceptable use policies of email providers
+
+
+
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+🖥️ Como Usar
+Preparação dos Dados:
+
+Prepare um arquivo CSV com colunas Nome e Email
+
+Opcional: adicione outras colunas para referência
+
+Configuração do Email:
+
+Defina o assunto da mensagem
+
+Crie o template HTML do corpo do email
+
+Use variáveis para personalização
+
+Anexos (Opcional):
+
+Associe arquivos específicos a cada contato
+
+Ou envie o mesmo anexo para múltiplas pessoas
+
+Envio:
+
+Clique em "Iniciar Envio"
+
+O sistema aplica delays automáticos entre envios
+
+Monitoramento em tempo real no log de execução
+
+🎨 Interface Gráfica
+Tela Principal
+Seção 1: Carregamento e edição de base de dados
+
+Seção 2: Configuração do email (assunto, corpo, anexos)
+
+Seção 3: Controles de envio (iniciar, parar, limpar)
+
+Seção 4: Log de execução em tempo real
+
+Barra de Progresso: Acompanhamento visual do envio
+
+Janelas Auxiliares
+Editor de Dados: Tabela editável para modificar contatos
+
+Gerenciador de Anexos: Interface para associar arquivos
+
+Visualizador de Dados: Table de visualização apenas leitura
+
+⚙️ Estrutura do CSV
+csv
+Nome;Email
+João Silva;joao@empresa.com
+Maria Santos;maria@empresa.com
+...
+🛡️ Recursos de Segurança
+Delay Automático: 6 segundos entre envios para evitar spam
+
+Validação de Dados: Verificação de emails e nomes válidos
+
+Tratamento de Erros: Continuação do envio mesmo com erros individuais
+
+Interrupção Segura: Parada imediata quando solicitada
+
+📋 Requisitos do Sistema
+Windows (com Outlook instalado)
+
+Python 3.6 ou superior
+
+Microsoft Outlook 2013 ou superior
+
+Acesso à internet para envio de emails
+
+🚨 Limitações Conhecidas
+Funciona apenas no Windows devido à integração com Outlook
+
+Requer que o Outlook esteja instalado e configurado
+
+Limitado a anexos PDF e DOCX na interface atual
+
+🤝 Contribuições
+Contribuições são bem-vindas! Areas para melhoria:
+
+Suporte a outros clientes de email (Gmail, Thunderbird)
+
+Templates de email pré-prontos
+
+Relatórios de envio mais detalhados
+
+Suporte a mais formatos de anexo
+
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para detalhes.
+
+⚠️ Aviso Legal
+Este software é destinado para uso legítimo de marketing e comunicação.
+Usuários são responsáveis por garantir conformidade com:
+
+Leis de proteção de dados (LGPD, GDPR)
+
+Regulamentações de spam e email marketing
+
+Políticas de uso aceitável dos provedores de email
