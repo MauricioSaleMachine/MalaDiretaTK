@@ -1,3 +1,61 @@
+# SaleMachine - Automated Bulk Email System
+
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange)
+
+Complete bulk email system developed in Python with intuitive graphical interface for mass sending personalized emails via Outlook.
+
+## 🚀 Key Features
+
+### ✉️ **Mass Email Sending**
+- Native integration with Microsoft Outlook
+- Personalized sending using CSV data
+- Configurable delay between sends to prevent blocking
+- HTML support in email body
+
+### 📊 **Contact Management**
+- **CSV Import**: Support for multiple formats and encodings
+- **Internal Editing**: Edit names and emails directly in the interface
+- **Data Visualization**: Interactive table for contact analysis
+- **Add/Remove**: Manage contacts without external file editing
+
+### 📎 **Advanced Attachment System**
+- **Personalized Attachments per Contact**: Specific files for each person
+- **Batch Attachments**: Same file for multiple contacts
+- **PDF and DOCX Support**: Most common document formats
+- **Visual Management**: Intuitive interface for file association
+
+### 🎯 **Smart Personalization**
+- **Dynamic Variables**:
+  - `{first_name}` - Recipient's first name
+  - `{full_name}` - Full name
+  - `{email}` - Email address
+- **Customizable Subject**
+- **HTML Template** for email body
+
+## 🛠️ Technologies Used
+
+- **Python 3.6+**
+- **Pandas** - CSV data manipulation
+- **Tkinter** - Modern graphical interface
+- **pywin32** - Outlook integration
+- **Threading** - Non-blocking processing
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/MauricioSaleMachine/MalaDiretaTK
+
+# Enter the directory
+cd MalaDiretaTK
+
+# Install dependencies
+pip install pandas pywin32
+
+```
+
 # SaleMachine - Sistema de Mala Direta Automatizada
 
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue)
@@ -49,7 +107,7 @@ Sistema completo de mala direta desenvolvido em Python com interface gráfica in
 git clone https://github.com/MauricioSaleMachine/MalaDiretaTK
 
 # Entre no diretório
-cd salemachine-mala-direta
+cd MalaDiretaTK
 
 # Instale as dependências
 pip install pandas pywin32
